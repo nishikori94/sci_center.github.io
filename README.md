@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## WELCOME TO THE SCIENTIFIC MANAGMENT SYSTEM PROJECT PAGE
 
-You can use the [editor on GitHub](https://github.com/nishikori94/scientific_managment_system.gtihub.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is web-based management software system used by editors, reviewers and scientists to organise scientific paper submissions and reviews. On the other side it is used by customers to buy and access the papers and articles.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It is made up of several separate projects:
 
-### Markdown
+- Payment hub: provides an integrated infrastructure for all payment types and allows you to combine and normalise financial messages from disparate systems to stabilise payment flows and reduce operational risk. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Payment hub client](https://github.com/nishikori94/KoncentratorPlacanjaClient)
+[Payment hub server](https://github.com/nishikori94/KoncentratorPlacanja)
 
-```markdown
-Syntax highlighted code block
+- Science center: it is used by customers to buy and access the papers and articles.
 
-# Header 1
-## Header 2
-### Header 3
+[Science center client](https://github.com/nishikori94/NaucnaCentralaClient)
+[Science center server](https://github.com/nishikori94/NaucnaCentrala)
+  
+- Bank: simulates e-banking, enabling you to pay online by credit card.
+[Bank client](https://github.com/nishikori94/BankaClient)
+[Bank server](https://github.com/nishikori94/Banka)
 
-- Bulleted
-- List
+- Payment card center: mediates in interbank communication and accepts the transaction request from the seller's bank(Acquirer) and forwards it to the buyer's bank(Issuer).
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nishikori94/scientific_managment_system.gtihub.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Payment card center](https://github.com/nishikori94/PaymentCardCenter)
