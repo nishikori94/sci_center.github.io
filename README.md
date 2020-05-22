@@ -1,4 +1,4 @@
-## WELCOME TO THE SCIENTIFIC MANAGMENT SYSTEM PROJECT PAGE
+## WELCOME TO THE SCIENTIFIC MANAGEMENT SYSTEM PROJECT PAGE
 
 This is web-based management software system used by editors, reviewers and scientists to organise scientific paper submissions and reviews. On the other side it is used by customers to buy and access the papers and articles.
 
